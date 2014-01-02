@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Carto Query</title>
+  </head>
+  <body>
+    <script src="build/build.js"></script>
+    <script>
+      // create connection
+      var conn = require('carto-query')({ username: 'dzajdband'});
+      
+      conn.query(['SELECT * from {} limit {}', 'tweets_con_barrio', 20], function(err, data){
+        console.log(err, data);
+      });
+    </script>
+  </body>
+</html>

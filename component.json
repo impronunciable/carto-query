@@ -1,0 +1,20 @@
+{
+  "name": "carto-query",
+  "repo": "danzajdband/carto-query",
+  "description": "CartoJS sql queries",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "visionmedia/debug": "*",
+    "learnboost/jsonp": "*",
+    "eldargab/print.js": "*",
+    "yields/isArray": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "remotes": []
+}
